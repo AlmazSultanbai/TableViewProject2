@@ -60,12 +60,12 @@ class CustomTableViewCell: UITableViewCell {  //это уже тэйбл вье�
             cellView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -5),
             cellView.heightAnchor.constraint(equalToConstant: 50),
             
-            showImage.topAnchor.constraint(equalTo: cellView.topAnchor, constant: 5),
-            showImage.leadingAnchor.constraint(equalTo: cellView.leadingAnchor, constant: 5),
+            showImage.topAnchor.constraint(equalTo: cellView.topAnchor, constant: 7),
+            showImage.leadingAnchor.constraint(equalTo: cellView.leadingAnchor, constant: 7),
             
             labelInCell.topAnchor.constraint(equalTo: cellView.topAnchor, constant: 5),
             labelInCell.leadingAnchor.constraint(equalTo: cellView.leadingAnchor, constant: 30),
-            labelInCell.trailingAnchor.constraint(equalTo: cellView.trailingAnchor, constant: -10)
+            labelInCell.trailingAnchor.constraint(equalTo: cellView.trailingAnchor, constant: -20)
             
         ])
     }
